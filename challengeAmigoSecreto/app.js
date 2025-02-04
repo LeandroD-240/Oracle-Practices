@@ -11,5 +11,9 @@ function agregarAmigo() {
         friends.push(addfriend);
         document.getElementById("amigo").value = "";
         //document.getElementById("listaAmigos").innerHTML = friends;
+        for (const i of friends) {
+            document.getElementById("listaAmigos").innerHTML = i;
+            console.log(`${i}\n`);
+        }
     }
 }
