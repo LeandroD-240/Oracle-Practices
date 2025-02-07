@@ -11,7 +11,12 @@ function agregarAmigo() {
         friends.push(addfriend);
         document.getElementById("amigo").value = "";
         document.getElementById("listaAmigos").innerHTML = friends;
-        console.log(friends.length);
-        console.log(Math.floor(Math.random()*friends.length)+1);
     }
+}
+
+function sortearAmigo() {
+    let result = Math.floor(Math.random()*friends.length);
+    winner = friends[result];
+    console.log(result);
+    document.getElementById("resultado").innerHTML = `Tu amigo secreto es: ${winner}`;
 }
