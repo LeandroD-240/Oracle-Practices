@@ -8,10 +8,10 @@
 
 ## Índice
 
-- [Features](Features)
-- [Project access](Project-access)
-- [Technologies](Technologies)
-- [Author](Author)
+- [Features](#Features)
+- [Project access](#Project-access)
+- [Technologies](#Technologies)
+- [Author](#Author)
 
 This is a challenge of the program of Oracle Next Education (ONE). This consist in creates a to sort out with a list of friends that the user adds. The objective of this challenge is practice the programming logic with javascript.
 
