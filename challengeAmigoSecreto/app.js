@@ -4,7 +4,6 @@ let friends = [];
 
 function agregarAmigo() {
     let addfriend = document.getElementById("amigo").value;
-    //addition = document.getElementById("listaAmigos").innerText = addfriend;
     if (addfriend == "") {
         alert("Please, put a name");
     } else {
