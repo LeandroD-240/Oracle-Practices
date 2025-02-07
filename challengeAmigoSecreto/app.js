@@ -10,10 +10,8 @@ function agregarAmigo() {
     } else {
         friends.push(addfriend);
         document.getElementById("amigo").value = "";
-        //document.getElementById("listaAmigos").innerHTML = friends;
-        for (const i of friends) {
-            document.getElementById("listaAmigos").innerHTML = i;
-            console.log(`${i}\n`);
-        }
+        document.getElementById("listaAmigos").innerHTML = friends;
+        console.log(friends.length);
+        console.log(Math.floor(Math.random()*friends.length)+1);
     }
 }
