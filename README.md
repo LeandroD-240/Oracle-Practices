@@ -19,4 +19,4 @@ En este repositorio se hace un análisis sobre de la evasión de clientes en la 
 Tercer challengue aún no liberado.
 
 # Importante
-No habrá que ejecutar nada, pues los notebooks ya tienen cargados todos los resultados del los análisis realizados.
+No habrá que ejecutar nada, pues los notebooks ya tienen cargados todos los resultados de los análisis realizados.
