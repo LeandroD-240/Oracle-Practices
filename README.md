@@ -25,4 +25,37 @@ En este repositorio se crea un modelo de aprendizaje automático para predecir c
 **Archivo:** `TelecomX_2.ipynb`
 
 # Importante
+## Estructura
+```plaintext
+📁 proyecto/
+│
+| # Archivos generales
+├── README.md
+├── requirements.txt
+├── .venv/
+│
+│ # Archivos del proyecto Alura Store Latam
+├── AluraStoreLatam.ipynb
+│
+| # Archivos del proyecto Telecom X
+├── TelecomX.ipynb
+├── img/
+|  ├── Distribucion_de_clientes_que_abandonaron.png
+|  ├── Evasion_del_clientes_por_variables_categoricas.png
+|  ├── Evasion_del_clientes_por_variables_numericas.png
+│
+| # Archivos del proyecto Telecom X parte 2
+├── TelcomX_2.ipynb
+├── TelecomX_Data_prepared.csv
+└── champion.pkl
+```
+
+## Descrición del proceso
+Los Notebooks explican cada proceso realizado, pero en terminos simples:
+1. `Alura Store Latam`: Se realiza un análisis de las tiendas de Alura Store para determinar cuál es la mejor opción para invertir.
+2. `Telecom X`: Se combinan técnicas avanzada de análisis de datos (EDA)y de ciencia de datos (machine learning).
+
+## Instrucciones
 No habrá que ejecutar nada, pues los notebooks ya tienen cargados todos los resultados de los análisis realizados.
+
+Para los interesados en la reproducibilidad, se puede realizar el proyecto en Google Colab, GitHub o Kaggle descargando los notebooks y el archivo `requirements.txt`.
